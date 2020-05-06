@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_about">
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="example.android.tourguide.ui.about.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/about_fragment"/>
+
+
+    <fragment
+        android:id="@+id/nav_place"
+        android:name="example.android.tourguide.ui.places.PlacesFragment"
+        android:label="@string/places"
+        tools:layout="@layout/places_fragment"/>
+
+
+    <fragment
+        android:id="@+id/nav_restaurants"
+        android:name="example.android.tourguide.ui.restaurants.RestaurantsFragment"
+        android:label="Restaurants"
+        tools:layout="@layout/restaurants_fragment" />
+
+    <fragment
+        android:id="@+id/nav_phrases"
+        android:name="example.android.tourguide.ui.phrases.PhrasesFragment"
+        android:label="Phrases"
+        tools:layout="@layout/phrases_fragment" />
+
+</navigation>

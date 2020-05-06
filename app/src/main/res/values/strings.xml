@@ -1,0 +1,45 @@
+<resources >
+    <string name="app_name">Tour Guide</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Gate way of INDIA</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="home_second">Home Second</string>
+    <string name="about">About</string>
+    <string name="places">Places</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="phrases">Phrases</string>
+    <string name="mumbai">Mumbai</string>
+    <string name="formerly_called_bombay">(formerly called Bombay)</string>
+    <string name="cst_station">Chhatrapati Shivaji Terminus (CST), formerly known as Victoria Terminus (VT)</string>
+    <string name="about_mumbai">Mumbai (formerly called Bombay) is a densely populated city on India’s west coast. A financial center, it’s India’s largest city. On the Mumbai Harbour waterfront stands the iconic Gateway of India stone arch, built by the British Raj in 1924. Offshore, nearby Elephanta Island holds ancient cave temples dedicated to the Hindu god Shiva. The city’s also famous as the heart of the Bollywood film industry.</string>
+    <string name="about_mumbai_extra">Landmark British colonial buildings include Chhatrapati Shivaji Terminus, an ornate train station melding Gothic Revival and Mughal architecture. The castlelike Bombay High Court features octagonal turrets. Immense Chhatrapati Shivaji Maharaj Vastu Sangrahalaya is a museum displaying ethnographic and natural history collections. Chor Bazaar is known for its antiques, while Mangaldas Market has textiles, and Zaveri Bazaar is filled with jewelry shops. Marine Drive terminates at popular Chaupati Beach. On the city’s outskirts in Sanjay Gandhi National Park is Kanheri, a cave system carved by Buddhists beginning in the 1st century B.C</string>
+    <string name="sample_address">Sample Address</string>
+    <string name="every_day_24hrs">24×7; every day</string>
+
+
+
+    <!-- Creating list of Place_name -->
+    <string name="gateway_of_india">Gateway of India</string>
+    <string name="national_park">Sanjay Gandhi National Park</string>
+    <string name="wax_museum">Red Carpet Wax Museum</string>
+    <string name="haji_ali_dargah">Haji Ali Dargah</string>
+
+    <!-- Creating list of Place_address-->
+    <string name="add_gateway_of_india">Apollo Bandar, Colaba, Mumbai</string>
+    <string name="add_national_park">Borivali East, Mumbai</string>
+    <string name="add_wax_museum">Amrut Nagar, Ghatkopar West, Mumbai</string>
+    <string name="add_haji_ali_dargah">Dargah Road, Mumbai</string>
+
+    <!-- Creating list of Place_timing -->
+    <string name="timing_gateway_of_india">24×7; every day</string>
+    <string name="timing_national_park">07:30 am to 06:30 pm; closed on Mondays</string>
+    <string name="timing_wax_museum">09:45 am to 09:30 pm; every day</string>
+    <string name="timing_haji_ali_dargah">05:30 am to 10:00 pm; every day</string>
+
+</resources>

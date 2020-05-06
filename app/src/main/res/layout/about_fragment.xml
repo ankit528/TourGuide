@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.about.AboutFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.2"
+        android:contentDescription="@string/about_mumbai"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_mumbai_marine_drive" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/left_right_side_margin"
+            android:paddingTop="@dimen/top_bottom_margin"
+            android:paddingRight="@dimen/left_right_side_margin"
+            android:paddingBottom="@dimen/top_bottom_margin">
+
+            <TextView
+                android:id="@+id/text_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/font_color"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/about_view_cst_station"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="@dimen/top_bottom_margin"
+                android:contentDescription="@string/cst_station"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/text_about_extra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/top_bottom_margin"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/font_color"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
